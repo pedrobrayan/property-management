@@ -31,7 +31,7 @@ Este repositório contém **apenas o `index.html`**, que é o frontend completo 
 
 Toda a parte de backend — banco de dados, autenticação, regras de segurança (RLS), Edge Functions e o agendamento do envio diário de e-mails — está hospedada e configurada diretamente no **Supabase**, fora deste repositório, por dois motivos:
 
-1. Envolve credenciais e segredos (chaves de API, senhas) que nunca devem estar em um repositório de código;
+1. Envolve credenciais e segredos (chaves de API, senhas);
 2. É configuração de infraestrutura, não código-fonte versionável da mesma forma que o frontend.
 
 O deploy do `index.html` é feito diretamente na **Vercel**, que serve o arquivo como um site estático — não há processo de build.
